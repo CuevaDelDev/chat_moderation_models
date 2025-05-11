@@ -16,7 +16,7 @@ Para realizar un inferencia de texto se necesita hacer una petición `POST` a la
         message: str
     }
 
-Y para realizar una inferencia con imágenes se debe hacer una petición `POST` (se necesita que la imagen haya sido codifica a base64)
+Y para realizar una inferencia con imágenes se debe hacer una petición `POST` a la ruta `/image/moderate` (se necesita que la imagen haya sido codifica a base64)
 
     {
         user: str, 
