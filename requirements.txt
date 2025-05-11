@@ -1,0 +1,6 @@
+detoxify 
+fastapi 
+torch 
+transformers
+pillow
+uvicorn
